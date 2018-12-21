@@ -1,0 +1,18 @@
+{
+  "name": "labbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf \"./dist\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "liuli",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2"
+  }
+}
