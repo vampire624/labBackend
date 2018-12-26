@@ -9,6 +9,7 @@ app.use("*", (req, res) => {
   fs.readFile('./index.html', 'utf-8', (err, chunk) => {
     if (err) {
       console.log(err)
+      res.end('服务器发生未知错误，请稍后重试！')
     } else {
       res.writeHead(200, {
        'Content-Type': 'text/html; charset=utf-8'
